@@ -89,7 +89,6 @@ if __name__ == '__main__':
     for c in classes:
         data[c] = encoding_vector[:, encoding_indices[c]]
     frame = pd.DataFrame.from_dict(data)
-    frame["abstracts"].astype('string')
     frame.to_hdf("/project/def-psavard/ladamek/ArxivFiles/arxiv-metadata-oai-snapshot.hdf", "abstract_data")
 
 

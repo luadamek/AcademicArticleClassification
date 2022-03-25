@@ -1,0 +1,11 @@
+tensorflow-cpu
+beautifulsoup4
+keras
+matplotlib
+numpy
+pandas
+sklearn
+scipy
+jupyter
+tensorflow_hub
+tables
